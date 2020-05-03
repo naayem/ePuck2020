@@ -1,7 +1,7 @@
 #include <chprintf.h>
 
 #include "rebond.h"
-#include "sensors/imu.h.h"
+#include "sensors/imu.h"
 
 
 

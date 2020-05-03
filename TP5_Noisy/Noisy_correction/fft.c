@@ -7,6 +7,8 @@
 #include <arm_math.h>
 #include <arm_const_structs.h>
 
+
+
 /* Define complex multiplication and its conjugate */
 #define  rmul(x,y)      (x.real * y.real - x.imag * y.imag)
 #define  imul(x,y)      (x.imag * y.real + x.real * y.imag)
@@ -95,3 +97,5 @@ void doFFT_c(uint16_t size, complex_float* complex_buffer){
 
 	fft_c(size, complex_buffer, +1.);
 }
+
+
